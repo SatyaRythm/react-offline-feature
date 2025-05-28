@@ -1,0 +1,117 @@
+[
+  {
+    "id": "template-001",
+    "name": "EHS Compliance Assessment",
+    "description": "Environmental, Health, and Safety compliance assessment for suppliers",
+    "sections": [
+      {
+        "id": "section-001",
+        "title": "Company Information",
+        "description": "Basic information about your company",
+        "questions": [
+          {
+            "id": "question-001",
+            "text": "What is your company's primary business activity?",
+            "type": "text",
+            "required": true
+          },
+          {
+            "id": "question-002",
+            "text": "How many employees work at your company?",
+            "type": "number",
+            "required": true
+          },
+          {
+            "id": "question-003",
+            "text": "In which countries do you have operations?",
+            "type": "text",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "section-002",
+        "title": "Environmental Compliance",
+        "description": "Assessment of your environmental management practices",
+        "questions": [
+          {
+            "id": "question-004",
+            "text": "Does your company have an environmental management system?",
+            "type": "multipleChoice",
+            "required": true,
+            "options": ["Yes", "No", "In development"]
+          },
+          {
+            "id": "question-005",
+            "text": "Which environmental certifications does your company have?",
+            "type": "checkboxes",
+            "required": false,
+            "options": ["ISO 14001", "EMAS", "Green Business Certification", "None", "Other"]
+          },
+          {
+            "id": "question-006",
+            "text": "Please describe your waste management procedures",
+            "type": "text",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "section-003",
+        "title": "Health & Safety",
+        "description": "Assessment of your workplace health and safety practices",
+        "questions": [
+          {
+            "id": "question-007",
+            "text": "Does your company have a health and safety policy?",
+            "type": "multipleChoice",
+            "required": true,
+            "options": ["Yes", "No", "In development"]
+          },
+          {
+            "id": "question-008",
+            "text": "How many workplace incidents were reported in the last year?",
+            "type": "number",
+            "required": true
+          },
+          {
+            "id": "question-009",
+            "text": "Which health and safety certifications does your company have?",
+            "type": "checkboxes",
+            "required": false,
+            "options": ["ISO 45001", "OHSAS 18001", "None", "Other"]
+          }
+        ]
+      },
+      {
+        "id": "section-004",
+        "title": "Risk Assessment",
+        "description": "Evaluation of environmental and safety risks",
+        "questions": [
+          {
+            "id": "question-010",
+            "text": "What are the top environmental risks in your operations?",
+            "type": "text",
+            "required": true
+          },
+          {
+            "id": "question-011",
+            "text": "How often do you conduct risk assessments?",
+            "type": "multipleChoice",
+            "required": true,
+            "options": ["Monthly", "Quarterly", "Annually", "Less than once a year", "Never"]
+          },
+          {
+            "id": "question-012",
+            "text": "Do you have emergency response procedures in place?",
+            "type": "multipleChoice",
+            "required": true,
+            "options": ["Yes", "No", "Partially"]
+          }
+        ]
+      }
+    ],
+    "createdAt": "2023-05-15T12:00:00.000Z",
+    "updatedAt": "2023-05-15T12:00:00.000Z"
+  }
+] 
